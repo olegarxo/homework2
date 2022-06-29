@@ -1,10 +1,8 @@
 ﻿void findTrid (string number)
 {
 int truNumbers = Convert.ToInt32(number);    
-    if (truNumbers > 0)
+    if (truNumbers >= 0)
     {
-
-    
         if (number.Length >= 3 )
         {
             Console.WriteLine(number[2]);
